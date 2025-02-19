@@ -1,0 +1,20 @@
+[15-Feb-2025 11:49:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbhyxkncm8vuae`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php:15
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php(15): mysqli->query('INSERT INTO car...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php on line 15
+[15-Feb-2025 11:49:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbhyxkncm8vuae`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php:15
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php(15): mysqli->query('INSERT INTO car...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php on line 15
+[15-Feb-2025 11:50:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbhyxkncm8vuae`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php:15
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php(15): mysqli->query('INSERT INTO car...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php on line 15
+[15-Feb-2025 16:30:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`dbhyxkncm8vuae`.`cart`, CONSTRAINT `cart_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`)) in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php:15
+Stack trace:
+#0 /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php(15): mysqli->query('INSERT INTO car...')
+#1 {main}
+  thrown in /home/customer/www/rsoa72.rehan.school/public_html/Etsy/index.php on line 15
